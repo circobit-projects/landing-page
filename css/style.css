@@ -1,0 +1,183 @@
+body {
+	font-family: "Roboto";
+	margin: 0px;
+}
+
+.header {
+	display: flex;
+	padding: 1rem;
+}
+
+.header-and-hero-container,
+.footer-container {
+	background: #1F2937;
+	color: #F9FAF8;
+}
+
+.header,
+.hero-container,
+.call-to-action-container,
+.footer {
+	max-width: 1100px;
+	margin-inline: auto;
+	padding-inline: 1.5rem;
+}
+
+.information-container,
+.quote-container {
+	max-width: 950px;
+	margin-inline: auto;
+	padding-inline: 1.5rem;
+}
+
+.quote-container-color {
+	background: #E5E7EB;
+}
+
+.quote-container {
+	font-size: 36px;
+	color: #1F2937;
+	font-weight: 300;
+	padding: 5rem 0rem;
+}
+
+.logo {
+	font-size: 24px;
+	margin-right: auto;
+}
+
+.menu,
+.hero-copy {
+	font-size: 18px;
+}
+
+ul {
+	list-style-type: none;
+    padding-inline-start: 0px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+	display: flex;
+	gap: 1rem;
+}
+
+a {
+	text-decoration: none;
+}
+
+.hero {
+	font-size: 48px;
+	font-weight: bold;
+}
+
+.hero-container {
+	display: flex;
+	gap: 5rem;
+	padding: 2rem 0rem;
+}
+
+.img-hero {
+	max-width: 100%;
+	height: auto;
+}
+
+.hero-container-left {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 1.5rem;
+}
+
+.hero-container-left,
+.hero-container-right {
+	flex: 1;
+}
+
+.button-plant-first-tree {
+	align-self: flex-start;
+	background: #3882F6;
+	color: #F9FAF8;
+	font-size: 18px;
+	padding: 0.5rem;
+	border: solid #3882F6;
+	border-radius: 8px;
+}
+
+.information-container {
+	padding: 2rem;
+}
+
+.information-title {
+	font-size: 36px;
+	color: #1F2937;
+	font-weight: 900;
+	text-align: center;
+}
+
+.information-cards {
+	display: flex;
+	gap: 2rem;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 2rem 0rem;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex: 1;
+	gap: 1rem;
+}
+
+.img-card {
+	max-width: 100%;
+	height: auto;
+	border: 5px solid #3882F6;
+	border-radius: 15px;
+}
+
+.card-text {
+	text-align: center;
+}
+
+.quote-author {
+	text-align: right;
+	font-weight: 700;
+}
+
+.footer {
+	padding: 2rem 0rem;
+	text-align: center;
+}
+
+.call-to-action-container {
+	padding: 5rem 0rem;
+}
+
+.call-to-action-box {
+	display: flex;
+	border: 2px solid #3882F6;
+	border-radius: 10px;
+	padding: 3rem 5rem;
+	background: #3882F6;
+	color: #F9FAF8;
+	justify-content: space-between;
+}
+
+.call-to-action-hero{
+	font-size: 24px;
+	font-weight: 700;
+}
+
+.call-to-action-right {
+	align-content: center;
+}
+
+.button-cta-footer{
+	color: #F9FAF8;
+	font-size: 18px;
+	border: 2px solid #F9FAF8;
+	border-radius: 5px;
+	background: #3882F6;
+	padding: 0.5rem 1.5rem;
+}
